@@ -1,11 +1,10 @@
 
 <h1>Ozone and Weather in New York City.</h1>
 
+This documentation is for a novice user who would wish to use the application.
+
 This is a Siny App for plotting the Ozone and Weather in New York City. A Shiny app consists of two parts: a ui.R file 
-
-describing the user interface and the server.R file wich contains the code that runs on the Shiny server, which returns the 
-
-result or output to the user's browser window. Both the files are reproduced below:
+describing the user interface and the server.R file wich contains the code that runs on the Shiny server, which returns the result or output to the user's browser window. Both the files are reproduced below:
 
 ui.R
 
@@ -76,6 +75,10 @@ mtext("Ozone and Weather in New York City", outer = TRUE)
 })
 ```
 
+<h3>The Application includes the Following Features</h3>
 
-
-
+    Selection of input through a Combo Box to select the types of plots.    Some operation on the ui input in sever.R
+    Reactive output displayed as a result of server calculations based on the above selection.
+  
+   
+Hope you will find this app substantively different than the very simple applications built in the class. However, I have also uploaded another application to plot the map of India (you can change the code to plot the map of any country you select as input).
