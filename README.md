@@ -6,7 +6,7 @@ This documentation is for a novice user who would wish to use the application.
 This is a Siny App for plotting the Ozone and Weather in New York City. A Shiny app consists of two parts: a ui.R file 
 describing the user interface and the server.R file wich contains the code that runs on the Shiny server, which returns the result or output to the user's browser window. Both the files are reproduced below:
 
-ui.R
+<h3>ui.R</h3>
 
 ```{r echo=FALSE, result=hide}
 library(shiny)
@@ -24,7 +24,7 @@ plotOutput('plot')
 )
 ```
 
-server.R
+<h3>server.R</h3>
 
 ```{r}
 
