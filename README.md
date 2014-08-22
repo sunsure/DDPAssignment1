@@ -1,5 +1,5 @@
 
-Ozone and Weather in New York City.
+<h1>Ozone and Weather in New York City.</h1>
 
 This is a Siny App for plotting the Ozone and Weather in New York City. A Shiny app consists of two parts: a ui.R file 
 
