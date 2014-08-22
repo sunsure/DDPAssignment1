@@ -8,7 +8,7 @@ describing the user interface and the server.R file wich contains the code that 
 
 <h3>ui.R</h3>
 
-```{r echo=FALSE, result=hide}
+```{r echo=FALSE, result=hide} 
 library(shiny)
 shinyUI(pageWithSidebar(
 headerPanel("Ozone and Weather in New York City"),
